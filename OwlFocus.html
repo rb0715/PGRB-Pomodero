@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Owl Focus</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Focus</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Nunito Sans">
-    
-    <link rel="stylesheet"
-            href="style.css"
-
-    <style
+    <style>
         .nunito-sans {
             font-family: "Nunito Sans", sans-serif;
             font-optical-sizing: auto;
@@ -21,21 +18,29 @@
                 "YTLC" 500;
         }
 
+        .center-content{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }        
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
 
+        
     </style>
-    <body style="background-color:cornflowerblue;"></body>
-        <div style="font-family: 'Nunito Sans', sans-serif;"><b>Owl Focus</b></div>
-    <div style="font-family: 'Nunito Sans', sans-serif;">Timer for PGCC Students</div>
-
-    <button type="button">Start Timer</button>
-    
-
-
-
-
-
-
-
+</head>
+<body style="background-color: cornflowerblue;">
+   <div class ="center-content">
+    <h1 class="nunito-sans">Owl Focus</h1>
+    <button type="button">Start Timer</button>    
+</div>
+    <p class="nunito-sans">Timer for PGCC Students</p>
+</body>
 
 
 
